@@ -1,0 +1,16 @@
+n, m = map(int, input().split())
+cards = list(map(int, input().split()))
+
+answer = 0
+
+for i in range(n):
+  for j in range(n-1):
+    for k in range(n-2):
+      temp = cards[i]+cards[j+1]+cards[k+2]
+      if temp > m :
+        continue
+      if temp > answer :
+        answer = temp
+
+
+print(answer)
