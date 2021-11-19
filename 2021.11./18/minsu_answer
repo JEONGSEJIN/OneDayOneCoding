@@ -1,5 +1,4 @@
 n = int(input())
-print("n is :", n)
 points = list(map(int, input().split()))
 squeezed_points = []
 
