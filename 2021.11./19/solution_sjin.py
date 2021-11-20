@@ -11,3 +11,6 @@ line = []
 for i in range(n):
     line.append(list(map(int, input().split(' '))))
 print(line)
+
+
+https://m.blog.naver.com/tobsysco/90189606643
